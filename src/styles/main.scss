@@ -1,0 +1,25 @@
+/* here to place your scss code and must import in index.ts file */
+
+html {
+  font-size: 13px;
+}
+
+// Your variable overrides
+$theme-colors: (
+  "primary":    #6200EE,
+  // "secondary":  $secondary,
+  // "success":    $success,
+  // "info":       $info,
+  // "warning":    $warning,
+  // "danger":     $danger,
+  // "light":      $light,
+  // "dark":       $dark
+);
+
+// $border-radius:               0 !default;
+// $border-radius-lg:            0 !default;
+// $border-radius-sm:            0 !default;
+
+
+// Bootstrap and its default variables
+@import "./node_modules/bootstrap/scss/bootstrap";
